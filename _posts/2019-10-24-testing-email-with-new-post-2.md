@@ -9,6 +9,10 @@ permalink: >
 published: true
 post_date: 2019-10-24 00:33:20
 ---
+<pre>testing code</pre>
+
+`testing code`
+
  
 
 <pre class="EnlighterJSRAW" data-enlighter-language="null">testing code syntax highlighter</pre>
