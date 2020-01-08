@@ -29,8 +29,7 @@ To upgrade an existing an ASP.NET Core app to .NET Core 3.0 Preview 2, follow th
 
 example of script
 
-<script src="https://gist.github.com/richlander/7213b5dcaf011ad0cbe3d2582697b228.js"></script> 
-example of iframe
+<script src="https://gist.github.com/richlander/7213b5dcaf011ad0cbe3d2582697b228.js"></script> example of iframe
 
 <iframe width="560" height="315" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/hLFyycJVo0I"></iframe> 
 As part of the work to [tidy up the ASP.NET Core shared framework][5], Json.NET is being removed from the shared framework and now needs to be added as a package.
