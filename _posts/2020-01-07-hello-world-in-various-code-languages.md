@@ -389,30 +389,33 @@ Used to interact with and manage Windows systems at the command line level.
 
 Has a compact syntax needing far fewer lines of code than languages like Java or C++. It’s very popular and is used for websites and artificial intelligence (AI) tasks.
 
-<pre>print("Hello World")
+<pre>print("Hello World")</pre>
 
+##  
 
-<span style="font-size: 24pt;">QSharp</span> 
+##  
 
-<span class="hljs-function"><span class="hljs-keyword">operation</span> TestBellState(<span class="hljs-params">count : <span class="hljs-keyword">Int</span>, initial : <span class="hljs-keyword">Result</span></span>) : (<span class="hljs-params"><span class="hljs-keyword">Int</span>, <span class="hljs-keyword">Int</span></span>) </span>{
+<span style="font-size: 24pt;">QSharp</span>
 
-    <span class="hljs-keyword">mutable</span> numOnes = <span class="hljs-number">0</span>;
-    <span class="hljs-keyword">using</span> (qubit = <span class="hljs-keyword">Qubit</span>()) {
+<pre class="prettyprint">operation TestBellState(count : Int, initial : Result) : (Int, Int) {
 
-        <span class="hljs-control">for</span> (test <span class="hljs-control">in</span> <span class="hljs-number">1.</span>.count) {
+    mutable numOnes = 0;
+    using (qubit = Qubit()) {
+
+        for (test in 1..count) {
             Set(initial, qubit);
-            <span class="hljs-keyword">let</span> res = <span class="hljs-helper">M</span>(qubit);
+            let res = M(qubit);
 
-            <span class="hljs-comment">// Count the number of ones we saw:</span>
-            <span class="hljs-control">if</span> (res == <span class="hljs-constant">One</span>) {
-                <span class="hljs-keyword">set</span> numOnes += <span class="hljs-number">1</span>;
+            // Count the number of ones we saw:
+            if (res == One) {
+                set numOnes += 1;
             }
         }
-        Set(<span class="hljs-constant">Zero</span>, qubit);
+        Set(Zero, qubit);
     }
 
-    <span class="hljs-comment">// Return number of times we saw a |0&gt; and number of times we saw a |1&gt;</span>
-    <span class="hljs-control">return</span> (count-numOnes, numOnes);
+    // Return number of times we saw a |0> and number of times we saw a |1>
+    return (count-numOnes, numOnes);
 }</pre>
 
 ## [R][44]
