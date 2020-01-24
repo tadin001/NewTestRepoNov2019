@@ -99,4 +99,4 @@ Here are some of the questions that we've heard. If you have a different questio
 
 You'll notice a bright, blue button on our pages with "Feedback" on it that you can select to either share a suggestion, report a bug, give us a compliment, or ask a question. If you leave us your email address, we'll try to let you know when we add the question and answer to our FAQ or we will answer you directly. If you cannot submit feedback, please email us at <a href="mailto:devblogsfeedback@microsoft.com" target="_blank" rel="noopener noreferrer">devblogsfeedback@microsoft.com</a>.
 
-<img class="alignnone wp-image-216052 size-full" src="https://devblogs72.wpengine.com/visualstudio/wp-content/uploads/sites/4/2018/10/devblogs-feedback.gif" alt="" width="800" height="450" />
+<img class="aligncenter wp-image-216052 size-full" src="https://devblogs72.wpengine.com/visualstudio/wp-content/uploads/sites/4/2018/10/devblogs-feedback.gif" alt="" width="800" height="450" />
