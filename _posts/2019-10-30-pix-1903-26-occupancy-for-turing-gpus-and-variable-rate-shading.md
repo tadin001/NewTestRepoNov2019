@@ -37,7 +37,7 @@ The Occupancy graph complements PIX's other performance features such as High Fr
 
  
 
-<table class="aligncenter">
+<table>
   <tbody>
     <tr>
       <td style="height: 27px;text-align: center;">
